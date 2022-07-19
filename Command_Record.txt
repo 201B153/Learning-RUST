@@ -1,0 +1,34 @@
+  59        0.026 mkdir RUSTWASM-BOOK
+  60        0.020 cd rustwasm-book
+  61        0.029 clear
+  62        4.618 rustc --version
+  63        0.025 mkdir Rust-Basic
+  64        0.015 cd Rust-basic
+  65        0.003 clear
+  66     1:05.130 nano main.rs
+  67        1.932 rustc main.rs
+  68        6.582 ./main
+  69        0.043 .\main.exe
+  70        0.038 ls
+  71        0.055 rm main.pdb
+  72        0.015 ls
+  73       46.379 nano main.rs
+  74        0.627 cargo --version
+  75       12.140 cargo new Rust_With_Cargo
+  76        0.061 cd Rust_With_Cargo
+  77        0.011 ls
+  78        0.072 cat cargo.toml
+  79        0.008 cd ..
+  80        0.009 ls
+  81       54.332 nano main.rs
+  82        0.020 cd rust_with_cargo
+  83        1.152 cargo build
+  84        0.019 ls
+  85        6.720 .\target\debug\rust_with_cargo.exe
+  86        0.548 cargo run
+  87        0.549 cargo check
+  88        1.034 cargo build --release
+  89        0.022 ls
+  90        0.007 cd ..
+  91        0.075 git clone example.org/someproject
+  92        0.019 ls

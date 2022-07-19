@@ -1,0 +1,3 @@
+Rust-Lesson
+- In Rust the no. overShadows the Previos variable but not replace it like in example Shadowing.rs
+- 

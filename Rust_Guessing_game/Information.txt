@@ -1,0 +1,2 @@
+- Cargo fetches files from Crates.io
+- Add rand to cargo.toml before building.
