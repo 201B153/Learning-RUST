@@ -6,4 +6,12 @@ Each value in Rust has an owner.
 There can only be one owner at a time.
 When the owner goes out of scope, the value will be dropped.
 - That first part is done by us: when we call String::from, its implementation requests the memory it needs. This is pretty much universal in programming languages.
+- Structs are similar to tuples, But Unlike with tuples, in a struct you’ll name each piece of data so it’s clear what the values mean.Adding these names means that structs are more flexible than tuples: you don’t have to rely on the order of the data to specify or access the values of an instance.
+- Rust does include functionality to print out debugging information, but we have to explicitly opt in to make that functionality available for our struct. To do that, we add the outer attribute #[derive(Debug)] just before the struct definition
+- dbg! return ownership of the expression's value
+- Everything within this impl block will be associated with the Rectangle type. Then we move the area function within the impl curly brackets and change the first (and in this case, only) parameter to be self in the signature and everywhere within the body
+- The &self is actually short for self: &Self. Within an impl block, the type Self is an alias for the type that the impl block is for.
+- Methods must have a parameter named self of type Self for their first parameter, so Rust lets you abbreviate this with only the name self in the first parameter spot.
+- Methods can take ownership of self, borrow self immutably as we’ve done here, or borrow self mutably, just as they can any other parameter.
+
 - 
