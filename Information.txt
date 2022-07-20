@@ -1,3 +1,9 @@
 Rust-Lesson
 - In Rust the no. overShadows the Previos variable but not replace it like in example Shadowing.rs
+- OwnerShip is only present in rust it is set of rules that manages garbage memory in .rs files
+- Ownership Rules::
+Each value in Rust has an owner.
+There can only be one owner at a time.
+When the owner goes out of scope, the value will be dropped.
+- That first part is done by us: when we call String::from, its implementation requests the memory it needs. This is pretty much universal in programming languages.
 - 
