@@ -3,7 +3,7 @@ struct Rectangle {
     width: u32,
     height: u32,
 }
-
+// Change!!
 //fn main() {
   //  let rect1 = Rectangle {
     //    width: 30,
